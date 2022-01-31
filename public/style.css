@@ -1,0 +1,123 @@
+* {
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	font-size:2.9rem;
+}
+
+html {
+	font-size:62.5%;
+}
+
+body {
+	background-color: #eeeeee;
+}
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header > h1 {
+	width: 100%;
+	text-align: center;
+	padding: 2rem;
+	border: 0.1rem solid black;
+}
+
+ul {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+ul > li {
+	padding: 2rem;
+	list-style-type: none;
+	border: 0.1rem solid black;
+	width: 20%;
+	background-color: #7a7a7a;
+}
+
+a {
+	text-decoration-line: none;
+	color: dodgerblue;
+}
+
+section > h1 {
+	margin: 5rem 5rem;
+	text-decoration-line: underline;
+	font-size: 4rem;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	margin: 0 auto;
+	align-items: center;
+	padding: 3rem;
+}
+
+form > div {
+	margin: 0.5rem;
+}
+
+input, textarea {
+	padding: 0.5rem;
+	font-size: 1.5rem;
+}
+
+input[type=submit] {
+	padding: 1rem 3rem;
+	border-radius: 0.5rem;
+	cursor: pointer;
+}
+
+footer {
+	text-align: center;
+	padding: 2rem;
+}
+
+section {
+	border: 0.1rem solid black;
+	height: 70rem;
+}
+
+.feedback-message {
+	padding: 1rem;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	color: white;
+	font-weight: bold;
+}
+
+.feedback-error {
+	background: indianred;
+}
+
+.feedback-success {
+	background: mediumseagreen;
+}
+
+#connect {
+	display: flex;
+	width: 100%;
+}
+
+#connect > form {
+	display: flex;
+	flex-direction: row;
+}
+
+#id-submitAdmin {
+	padding: 0.5rem;
+	margin-left: 2rem;
+}
+
+#connect > form > input {
+	width: 20%;
+}
