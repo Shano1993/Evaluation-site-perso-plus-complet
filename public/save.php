@@ -26,21 +26,4 @@ validateRange(10, 300, 'message', '/public/index.php?page=contact&error=4');
 $jsonMessage = file_put_contents("../data/last_message.json", $_POST);
 json_encode($jsonMessage);
 
-$from = "From: stefan.hanotiau@gmail.com";
-$to = $mail;
-$mess = $message;
-$sujet = 'Subject';
-$message1 = wordwrap($mess, 70, "\r\n");
-
-if (isset($_POST['submit'])) {
-    if ($mail($to, $sujet, $message1, $from)) {
-        echo "message sent successfully !";
-    }
-    else {
-        echo "Error !";
-    }
-}
-
-
-
 header('Location: admin.php');

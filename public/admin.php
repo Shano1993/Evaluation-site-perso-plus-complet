@@ -23,7 +23,7 @@ if (isset($_GET['error'])) {
     <title>Space Administration</title>
 </head>
 <body>
-    <h1>Space administation</h1>
+    <h1>Space administration</h1>
 <p id="name"><?= 'Bienvenue ' . $_SESSION['username'] ?></p>
 </body>
 </html>
