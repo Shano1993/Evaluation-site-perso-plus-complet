@@ -1,5 +1,5 @@
 <div id="connect">
-    <form action="../public/admin.php" method="post">
+    <form action="/admin.php" method="post">
         <label for="id-username">
             <input type="text" name="username" id="id-username" placeholder="Username">
         </label>
@@ -11,7 +11,7 @@
 </div>
 
 <ul>
-    <li><a href="../public/index.php?page=bio">Bio</a></li>
-    <li><a href="../public/index.php?page=contact">Contact</a></li>
-    <li><a href="../public/index.php">Home Page</a></li>
+    <li><a href="/index.php?page=bio">Bio</a></li>
+    <li><a href="/index.php?page=contact">Contact</a></li>
+    <li><a href="/index.php">Home Page</a></li>
 </ul>
